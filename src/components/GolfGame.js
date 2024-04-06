@@ -27,9 +27,13 @@ const GolfGame = () => {
         <div
           className="ball"
           style={{
+            backgroundColor:"black",
              position: "absolute",
             top: ballPosition.top,
             left: ballPosition.left,
+            width: "50px",
+            height: "50px",
+            borderRadius: "50%", 
           }}
         ></div>
       ) : (
