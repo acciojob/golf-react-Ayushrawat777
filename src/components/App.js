@@ -1,6 +1,6 @@
 import React from "react";
 import GolfGame from './GolfGame';
-import './App.css'
+import "../styles/App.css";
 
 const App = () => {
   return (
